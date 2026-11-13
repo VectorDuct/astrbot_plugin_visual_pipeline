@@ -1,0 +1,14 @@
+{
+  "enabled": false,
+  "allowed_origins": [
+    "your-bot:GroupMessage:your-group-id"
+  ],
+  "endpoint": "https://images.example.com/v1/images/generations",
+  "api_key_env": "IMAGE_API_KEY",
+  "model": "your-image-model",
+  "size": "1024x1024",
+  "cooldown_seconds": 60,
+  "timeout_seconds": 180,
+  "allow_http_loopback": false,
+  "deny_terms": []
+}

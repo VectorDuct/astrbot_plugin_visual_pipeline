@@ -1,0 +1,69 @@
+{
+  "enabled": {
+    "type": "bool",
+    "default": false,
+    "description": "启用绘图",
+    "hint": "配置完成并确认群内用户知情后开启。"
+  },
+  "allowed_origins": {
+    "type": "list",
+    "default": [],
+    "description": "允许的群消息来源",
+    "hint": "逐项填写完整 unified_msg_origin；不支持通配符，空列表拒绝全部请求。"
+  },
+  "endpoint": {
+    "type": "string",
+    "default": "",
+    "description": "Images API 完整地址",
+    "hint": "填写你有权使用的 HTTPS /v1/images/generations 接口地址。"
+  },
+  "api_key_env": {
+    "type": "string",
+    "default": "IMAGE_API_KEY",
+    "description": "密钥环境变量名",
+    "hint": "只填写变量名；将密钥注入 AstrBot 进程环境，不要填入此表单。"
+  },
+  "model": {
+    "type": "string",
+    "default": "",
+    "description": "图像模型标识",
+    "hint": "按服务商实际支持的模型填写。"
+  },
+  "size": {
+    "type": "string",
+    "default": "1024x1024",
+    "description": "生成尺寸",
+    "hint": "接口必须支持选定尺寸；不自动换模型或尺寸。",
+    "options": [
+      "1024x1024",
+      "1024x1536",
+      "1536x1024",
+      "1024x1792",
+      "1792x1024"
+    ]
+  },
+  "cooldown_seconds": {
+    "type": "int",
+    "default": 60,
+    "description": "同一用户请求间隔（秒）",
+    "hint": "同一群内同一用户，1–86400 秒；仅本进程内有效。"
+  },
+  "timeout_seconds": {
+    "type": "int",
+    "default": 180,
+    "description": "接口超时（秒）",
+    "hint": "10–600 秒；超时不自动重试，上游仍可能计费。"
+  },
+  "allow_http_loopback": {
+    "type": "bool",
+    "default": false,
+    "description": "允许本机 HTTP 测试接口",
+    "hint": "仅允许数字形式的回环 IP；生产请用 HTTPS。"
+  },
+  "deny_terms": {
+    "type": "list",
+    "default": [],
+    "description": "附加拒绝词表",
+    "hint": "管理员自行设置；归一化后子串匹配，不是完整内容审核。"
+  }
+}

@@ -1,0 +1,9 @@
+name: astrbot_plugin_visual_pipeline
+display_name: Visual Pipeline Connector
+desc: 通过自有图像 API，在授权 QQ 群中按明确指令生成图片；默认关闭。
+version: v0.1.0
+author: Visual Pipeline Connector contributors
+support_platforms:
+  - qq_official
+  - qq_official_webhook
+astrbot_version: '>=4.29.1,<4.30'
