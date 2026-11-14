@@ -2,6 +2,8 @@
 
 **[简体中文](./README.zh-CN.md)**
 
+> **VectorDuct Primitive: Workflow Conduit** ([vectorduct.com](https://vectorduct.com/#stack))
+
 An event-driven image generation workflow plugin for AstrBot (Official QQ Adapter). Routes explicit user drawing commands to a self-hosted or compatible image generation API and returns rendered media directly to the originating group chat.
 
 - **Version**: `v0.1.0`

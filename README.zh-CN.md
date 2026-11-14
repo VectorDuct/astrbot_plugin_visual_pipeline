@@ -2,6 +2,8 @@
 
 **[English](./README.md)**
 
+> **VectorDuct 核心原语：Workflow Conduit（工作流交付导管）** ([vectorduct.com](https://vectorduct.com/#stack))
+
 面向 AstrBot（QQ 官方适配器）的图像生成工作流连接器。通过显式指令触发，将文本提示词转发至自托管或兼容的图像生成 API，并将渲染结果直接回传至群聊会话。
 
 - **版本**：`v0.1.0`
