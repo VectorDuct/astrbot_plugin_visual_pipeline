@@ -1,18 +1,15 @@
 # Changelog
 
-Notable changes are documented using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) categories. Release dates are recorded when a version is published; the initial GitHub release is pending.
+Notable changes are documented using [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) categories. Release dates reflect publication of the corresponding version.
 
 ## [Unreleased]
+
+## [0.1.0] - 2026-11-16
 
 ### Added
 
 - Private vulnerability disclosure policy and contributor verification guide.
 - EditorConfig settings for UTF-8, LF line endings, final newlines, and Python indentation.
-
-## [0.1.0]
-
-### Added
-
 - Workflow Conduit: event-driven AstrBot image-generation connector for the Official QQ Adapter.
 - Explicit `/绘图`, `/画图`, and `/image` commands with generated media returned to the originating group session.
 - Single-task concurrency, configurable per-user cooldown, and an in-memory cache of the last 256 accepted requests for deduplication.
