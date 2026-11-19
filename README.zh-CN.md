@@ -9,6 +9,10 @@
 - **版本**：`v0.1.0`
 - **开源协议**：MIT License
 
+## 正式发布
+
+[v0.1.0 — 首个公开版本](https://github.com/VectorDuct/astrbot_plugin_visual_pipeline/releases/tag/v0.1.0)。下载源码归档，解压后将插件文件直接放入 `data/plugins/astrbot_plugin_visual_pipeline/`，宿主及依赖要求见下文。
+
 ## 触发方式
 
 支持 `/绘图`、`/画图`、`/image` 指令触发：

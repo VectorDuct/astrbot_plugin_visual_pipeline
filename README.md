@@ -9,6 +9,10 @@ An event-driven image generation workflow plugin for AstrBot (Official QQ Adapte
 - **Version**: `v0.1.0`
 - **License**: MIT
 
+## Releases
+
+[v0.1.0 — Initial Public Release](https://github.com/VectorDuct/astrbot_plugin_visual_pipeline/releases/tag/v0.1.0). Download the source archive and place the extracted plugin files directly in `data/plugins/astrbot_plugin_visual_pipeline/`. Follow the host and dependency requirements below.
+
 ## Usage
 
 Triggered via explicit `/绘图`, `/画图`, or `/image` commands:
